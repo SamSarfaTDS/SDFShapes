@@ -1,13 +1,19 @@
 {
   "name": "com.tripledot.sdflibrary",
-  "version": "0.0.1-preview",
+  "version": "0.1.0-preview",
   "displayName": "SDF Subgraph Library",
   "description": "SDF shape subgraphs for Shader Graph",
   "unity": "6000.0",
   "dependencies": {
     "com.unity.shadergraph": "17.0.4"
   },
-  "keywords": ["shader", "shadergraph", "sdf", "urp", "shape"],
+  "keywords": [
+    "shader",
+    "shadergraph",
+    "sdf",
+    "urp",
+    "shape"
+  ],
   "author": {
     "name": "Tripledot Studios"
   },
