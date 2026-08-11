@@ -1,0 +1,25 @@
+{
+  "name": "com.tripledot.sdflibrary",
+  "version": "0.0.1-preview",
+  "displayName": "SDF Subgraph Library",
+  "description": "SDF shape subgraphs for Shader Graph",
+  "unity": "6000.0",
+  "dependencies": {
+    "com.unity.shadergraph": "17.0.4"
+  },
+  "keywords": ["shader", "shadergraph", "sdf", "urp", "shape"],
+  "author": {
+    "name": "Tripledot Studios"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tripledot/REPO-NAME-HERE.git"
+  },
+  "samples": [
+    {
+      "displayName": "SDF Examples",
+      "description": "Example scene and materials demonstrating the SDF subgraphs.",
+      "path": "Samples~/SDFSamples"
+    }
+  ]
+}
