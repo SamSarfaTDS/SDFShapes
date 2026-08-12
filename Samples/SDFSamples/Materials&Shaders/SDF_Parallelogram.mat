@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SDF_Parallelogram
-  m_Shader: {fileID: -6465566751694194690, guid: c6fcad76e14734f3f9bdf1e2c70c4439,
+  m_Shader: {fileID: -6465566751694194690, guid: 8bd8cbefbfa0b4b81958b09e3948382f,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -43,13 +43,12 @@ Material:
     m_Ints: []
     m_Floats:
     - _ColorMask: 15
-    - _Height: 0.24
-    - _IsRing: 1
+    - _Height: 0.3
+    - _IsRing: 0
     - _Ring: 0
-    - _Size: 0.2
-    - _Skew: 0.12
-    - _Smooth_1: 0.11
-    - _Smooth_2: 0.01
+    - _Skew: 0.1
+    - _Smooth_1: 0
+    - _Smooth_2: 0.1
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
@@ -57,7 +56,7 @@ Material:
     - _StencilWriteMask: 255
     - _UIMaskSoftnessX: 1
     - _UIMaskSoftnessY: 1
-    - _Width: 0.2
+    - _Width: 0.3
     m_Colors:
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

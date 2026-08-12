@@ -553,7 +553,7 @@
     },
     "m_SourceType": 0,
     "m_FunctionName": "SDF_RoundBox",
-    "m_FunctionSource": "57a8a9fa8f18a455191934999a5081e1",
+    "m_FunctionSource": "bf9b4e4e8f9c94e1ab2c1f65b215d563",
     "m_FunctionSourceUsePragmas": true,
     "m_FunctionBody": "Enter function body here..."
 }
@@ -652,7 +652,7 @@
     },
     "m_SourceType": 0,
     "m_FunctionName": "SDF_RoundBox_Ring",
-    "m_FunctionSource": "57a8a9fa8f18a455191934999a5081e1",
+    "m_FunctionSource": "bf9b4e4e8f9c94e1ab2c1f65b215d563",
     "m_FunctionSourceUsePragmas": true,
     "m_FunctionBody": "Enter function body here..."
 }
@@ -838,8 +838,8 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
+        "x": -0.5,
+        "y": -0.5,
         "z": 0.0,
         "w": 0.0
     }

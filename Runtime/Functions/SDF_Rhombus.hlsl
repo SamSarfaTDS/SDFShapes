@@ -1,6 +1,6 @@
-void SDF_Rhombus_float(float2 uv, float2 b, out float Out)
+void SDF_Rhombus_float(float2 uv, float2 offset, float2 b, out float Out)
 {
-    float2 p = uv - 0.5;
+    float2 p = uv + offset;
     b.y = -b.y;
     p = abs(p);
     float h = clamp( (dot(b,p)+b.y*b.y)/dot(b,b), 0.0, 1.0 );
@@ -8,17 +8,17 @@ void SDF_Rhombus_float(float2 uv, float2 b, out float Out)
     Out = length(p)*sign(p.x);
 }
 
-void SDF_Rhombus_Ring_float(float2 uv, float2 b, float ring, out float Out)
+void SDF_Rhombus_Ring_float(float2 uv, float2 offset, float2 b, float ring, out float Out)
 {
     float rhombus;
-    SDF_Rhombus_float(uv, b, rhombus);
+    SDF_Rhombus_float(uv, offset, b, rhombus);
 
     Out = abs(rhombus) - ring;
 }
 
-void SDF_Rhombus_half(half2 uv, half2 b, out half Out)
+void SDF_Rhombus_half(half2 uv, half2 offset, half2 b, out half Out)
 {
-    half2 p = uv - 0.5;
+    half2 p = uv + offset;
     b.y = -b.y;
     p = abs(p);
     half h = clamp( (dot(b,p)+b.y*b.y)/dot(b,b), 0.0, 1.0 );
@@ -26,10 +26,10 @@ void SDF_Rhombus_half(half2 uv, half2 b, out half Out)
     Out = length(p)*sign(p.x);
 }
 
-void SDF_Rhombus_Ring_half(half2 uv, half2 b, float ring, out half Out)
+void SDF_Rhombus_Ring_half(half2 uv, half2 offset, half2 b, float ring, out half Out)
 {
     half rhombus;
-    SDF_Rhombus_float(uv, b, rhombus);
+    SDF_Rhombus_float(uv, offset, b, rhombus);
 
     Out = abs(rhombus) - ring;
 }

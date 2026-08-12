@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SDF_ChamferBox
-  m_Shader: {fileID: -6465566751694194690, guid: 81c13f76a1f8a464aa2d901949a0b624,
+  m_Shader: {fileID: -6465566751694194690, guid: e9012de8262fd4644a205d5772a8bea1,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -42,13 +42,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Chamfer: 0.15
+    - _Chamfer: 0.1
     - _ColorMask: 15
-    - _IsRing: 1
-    - _Ring: 0.04
-    - _RingThickness: -0.03
-    - _Smooth_1: 0.11
-    - _Smooth_2: 0.04
+    - _IsRing: 0
+    - _RingThickness: 0
+    - _Smooth_1: 0
+    - _Smooth_2: 0.1
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
@@ -57,11 +56,8 @@ Material:
     - _UIMaskSoftnessX: 1
     - _UIMaskSoftnessY: 1
     m_Colors:
-    - _Chamfer: {r: -0.1, g: 0, b: 0, a: 0}
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
-    - _End: {r: 0.1, g: 0, b: 0, a: 0}
     - _Offset: {r: -0.5, g: -0.5, b: 0, a: 0}
-    - _Size: {r: 0.4, g: 0.24, b: 0, a: 0}
-    - _Start: {r: -0.1, g: 0, b: 0, a: 0}
+    - _Size: {r: 0.3, g: 0.3, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -721,10 +721,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 203.49981689453126,
-            "y": 32.0000114440918,
-            "width": 257.00006103515627,
-            "height": 326.0
+            "x": 225.0,
+            "y": 5.5,
+            "width": 258.0,
+            "height": 350.0
         }
     },
     "m_Slots": [
@@ -757,7 +757,7 @@
     },
     "m_SourceType": 0,
     "m_FunctionName": "SDF_Chamfer_Box",
-    "m_FunctionSource": "a7f068ed38052451aa1700224c45749d",
+    "m_FunctionSource": "6302b5fa7a8674f918e275d9b654cb2e",
     "m_FunctionSourceUsePragmas": true,
     "m_FunctionBody": "Enter function body here..."
 }
@@ -1497,7 +1497,7 @@
     },
     "m_SourceType": 0,
     "m_FunctionName": "SDF_Chamfer_Box_Ring",
-    "m_FunctionSource": "a7f068ed38052451aa1700224c45749d",
+    "m_FunctionSource": "6302b5fa7a8674f918e275d9b654cb2e",
     "m_FunctionSourceUsePragmas": true,
     "m_FunctionBody": "Enter function body here..."
 }

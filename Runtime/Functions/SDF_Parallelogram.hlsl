@@ -1,6 +1,6 @@
-void SDF_Parallelogram_float(float2 uv, float wi, float he, float sk, out float Out)
+void SDF_Parallelogram_float(float2 uv, float2 offset, float wi, float he, float sk, out float Out)
 {
-    float2 p = uv - 0.5;
+    float2 p = uv + offset;
     float2 e = float2(sk, he);
     p = (p.y < 0.0) ? -p : p;
     float2 w = p - e;
@@ -14,17 +14,17 @@ void SDF_Parallelogram_float(float2 uv, float wi, float he, float sk, out float 
     Out = sqrt(d.x) * sign(-d.y);
 }
 
-void SDF_Parallelogram_Ring_float(float2 uv, float wi, float he, float sk, float ring, out float Out)
+void SDF_Parallelogram_Ring_float(float2 uv, float2 offset, float wi, float he, float sk, float ring, out float Out)
 {
     float parallelogram;
-    SDF_Parallelogram_float(uv, wi, he, sk, parallelogram);
+    SDF_Parallelogram_float(uv, offset, wi, he, sk, parallelogram);
 
     Out = abs(parallelogram) - ring;
 }
 
-void SDF_Parallelogram_half(half2 uv, half wi, half he, half sk, out half Out)
+void SDF_Parallelogram_half(half2 uv, half2 offset, half wi, half he, half sk, out half Out)
 {
-    half2 p = uv - 0.5;
+    half2 p = uv + offset;
     half2 e = half2(sk, he);
     p = (p.y < 0.0) ? -p : p;
     half2 w = p - e;
@@ -38,10 +38,10 @@ void SDF_Parallelogram_half(half2 uv, half wi, half he, half sk, out half Out)
     Out = sqrt(d.x) * sign(-d.y);
 }
 
-void SDF_Parallelogram_Ring_half(half2 uv, half wi, half he, half sk, half ring, out half Out)
+void SDF_Parallelogram_Ring_half(half2 uv, half2 offset, half wi, half he, half sk, half ring, out half Out)
 {
     half parallelogram;
-    SDF_Parallelogram_float(uv, wi, he, sk, parallelogram);
+    SDF_Parallelogram_float(uv, offset, wi, he, sk, parallelogram);
 
     Out = abs(parallelogram) - ring;
 }

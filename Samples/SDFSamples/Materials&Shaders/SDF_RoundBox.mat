@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SDF_RoundBox
-  m_Shader: {fileID: -6465566751694194690, guid: 92ac1f4cacf524f22856ac8d9379eac9,
+  m_Shader: {fileID: -6465566751694194690, guid: 2db696229dc0346488ca11001e0dd6ad,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -43,12 +43,12 @@ Material:
     m_Ints: []
     m_Floats:
     - _ColorMask: 15
-    - _Corners: 0.11
-    - _IsRing: 1
-    - _Radius: 0.26
-    - _Ring: -0.09
-    - _Smooth_1: 0.19
-    - _Smooth_2: 0.09
+    - _Corners: 0
+    - _IsRing: 0
+    - _Radius: 0.3
+    - _Ring: 0
+    - _Smooth_1: 0
+    - _Smooth_2: 0.1
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0

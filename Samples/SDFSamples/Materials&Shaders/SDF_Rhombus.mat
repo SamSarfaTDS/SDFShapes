@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SDF_Rhombus
-  m_Shader: {fileID: -6465566751694194690, guid: 887f0a18b9d57487a8c59c8e629988d7,
+  m_Shader: {fileID: -6465566751694194690, guid: 109c196a82752404aac469cd4164ed26,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -42,12 +42,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Chamfer: -0.02
     - _ColorMask: 15
-    - _IsRing: 1
-    - _Ring: 0.03
-    - _Smooth_1: 0.14
-    - _Smooth_2: -0.04
+    - _IsRing: 0
+    - _Ring: 0
+    - _Smooth_1: 0
+    - _Smooth_2: 0.1
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
@@ -57,7 +56,6 @@ Material:
     - _UIMaskSoftnessY: 1
     m_Colors:
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
-    - _Offset: {r: -0.5, g: -0.5, b: 0, a: 0}
-    - _Size: {r: 0.4, g: 0.31, b: 0, a: 0}
+    - _Size: {r: 0.3, g: 0.3, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

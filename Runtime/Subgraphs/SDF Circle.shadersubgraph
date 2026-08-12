@@ -710,7 +710,7 @@
     },
     "m_SourceType": 0,
     "m_FunctionName": "SDF_Circle_Ring",
-    "m_FunctionSource": "a0420f21066134f7e8ced2202f03ec13",
+    "m_FunctionSource": "c9c82cf19039449febcf817a9b500afc",
     "m_FunctionSourceUsePragmas": false,
     "m_FunctionBody": "Enter function body here..."
 }
@@ -893,7 +893,7 @@
     },
     "m_SourceType": 0,
     "m_FunctionName": "SDF_Circle",
-    "m_FunctionSource": "a0420f21066134f7e8ced2202f03ec13",
+    "m_FunctionSource": "c9c82cf19039449febcf817a9b500afc",
     "m_FunctionSourceUsePragmas": true,
     "m_FunctionBody": "Enter function body here..."
 }

@@ -489,7 +489,7 @@
     },
     "m_SourceType": 0,
     "m_FunctionName": "SDF_Equilateral_Triangle",
-    "m_FunctionSource": "ba9fe3fd5a7244620b215ac05db9142d",
+    "m_FunctionSource": "8d0b096ed3a0141fdb4ae56f0e4638dc",
     "m_FunctionSourceUsePragmas": true,
     "m_FunctionBody": "Enter function body here..."
 }
@@ -1359,7 +1359,7 @@
     },
     "m_SourceType": 0,
     "m_FunctionName": "SDF_Equilateral_Triangle_Ring",
-    "m_FunctionSource": "ba9fe3fd5a7244620b215ac05db9142d",
+    "m_FunctionSource": "8d0b096ed3a0141fdb4ae56f0e4638dc",
     "m_FunctionSourceUsePragmas": true,
     "m_FunctionBody": "Enter function body here..."
 }

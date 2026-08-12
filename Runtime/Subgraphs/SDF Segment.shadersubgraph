@@ -478,8 +478,8 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
+        "x": -0.5,
+        "y": -0.5,
         "z": 0.0,
         "w": 0.0
     }
@@ -899,7 +899,7 @@
     },
     "m_SourceType": 0,
     "m_FunctionName": "SDF_Segment",
-    "m_FunctionSource": "bd5a00c7c18cb44f3805dc3eb3231016",
+    "m_FunctionSource": "8c4e56bc2c1fb422d956a2b1d76e7fe8",
     "m_FunctionSourceUsePragmas": true,
     "m_FunctionBody": "Enter function body here..."
 }
@@ -1147,7 +1147,7 @@
     },
     "m_SourceType": 0,
     "m_FunctionName": "SDF_Segment_Ring",
-    "m_FunctionSource": "bd5a00c7c18cb44f3805dc3eb3231016",
+    "m_FunctionSource": "8c4e56bc2c1fb422d956a2b1d76e7fe8",
     "m_FunctionSourceUsePragmas": true,
     "m_FunctionBody": "Enter function body here..."
 }
