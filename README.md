@@ -1,6 +1,17 @@
 # SDF Shapes
 This is a package of SDF shapes as .hlsl files and subgraphs for shader graph.
 
+#### Currently supported SDF shapes
+
+- Chamfer box
+- Circle
+- Equilateral Triangle
+- Hexagon
+- Parallelogram
+- Rhombus
+- Round Box
+- Segment
+
 ## Installation
 
 Navigate to Tags -> Releases in this repo. Copy the link in of the latest release (e.g. `git@github.com:SamSarfaTDS/SDFShapes.git#v0.1.2-preview`).
