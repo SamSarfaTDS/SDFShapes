@@ -1,8 +1,8 @@
 {
   "name": "com.tripledot.sdflibrary",
-  "version": "0.1.0-preview",
-  "displayName": "SDF Subgraph Library",
-  "description": "SDF shape subgraphs for Shader Graph",
+  "version": "0.1.2-preview",
+  "displayName": "SDF Shapes",
+  "description": "SDF shape functions and subgraphs",
   "unity": "6000.0",
   "dependencies": {
     "com.unity.shadergraph": "17.0.4"
@@ -23,7 +23,7 @@
   },
   "samples": [
     {
-      "displayName": "SDF Examples",
+      "displayName": "Examples",
       "description": "Example scene and materials demonstrating the SDF subgraphs.",
       "path": "Samples~/SDFSamples"
     }
