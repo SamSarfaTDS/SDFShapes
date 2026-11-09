@@ -14,11 +14,15 @@ This is a package of SDF shapes as .hlsl files and subgraphs for shader graph.
 
 ## Installation
 
-Navigate to Tags -> Releases in this repo. Copy the link in of the latest release (e.g. `git@github.com:SamSarfaTDS/SDFShapes.git#v0.1.2-preview`).
+Navigate to Tags -> Releases in this repo. Copy the link in of the latest release (e.g. `git@github.com:SamSarfaTDS/SDFShapes.git#v0.1.3-preview`).
 
 In Unity, open the package manager and add a new package from Git URL. Paste the link and click install.
 
 ## Usage
+
+### Samples
+
+The package includes an example scene with a material for each shape. In Package Manager, select **SDF Shapes**, open the **Samples** tab and click **Import** next to **Examples**. The files are copied to `Assets/Samples/SDF Shapes/<version>/Examples`.
 
 ### Shader files
 

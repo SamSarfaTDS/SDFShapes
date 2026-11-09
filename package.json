@@ -1,6 +1,6 @@
 {
   "name": "com.tripledot.sdflibrary",
-  "version": "0.1.2-preview",
+  "version": "0.1.3-preview",
   "displayName": "SDF Shapes",
   "description": "SDF shape functions and subgraphs",
   "unity": "6000.0",
